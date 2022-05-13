@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Pull in dotarabajai.com posts
         uses: dotaraa/blog-post-workflow@master
-        max_post_count: 5
-        template: "#### [{{ title }}]({{ link }}) \n*{{ contentSnippet }}*\n\n"
         with:
           feed_list: "https://www.dotarabajai.com/feed/"
+          max_post_count: 5
+          template: "#### [{{ title }}]({{ link }}) \n*{{ contentSnippet }}*\n\n"
