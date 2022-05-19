@@ -19,7 +19,7 @@ jobs:
           count: 10
       - name: Commit file changes
         run: |
-          git config --global user.name 'dotara'
+          git config --global user.name 'dotaraa'
           git config --global user.email 'dotarabajai.hq@gmail.com'
           git add .
           git diff --quiet --cached || git commit -m "Update README"
