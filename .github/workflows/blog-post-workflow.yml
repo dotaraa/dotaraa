@@ -17,6 +17,7 @@ jobs:
         with:
           feed_url: https://dotarabajai.com/feed
           count: 10
+          comment_tag_name: BLOG-POST-LIST
       - name: Commit file changes
         run: |
           git config --global user.name 'dotaraa'
