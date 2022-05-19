@@ -1,4 +1,4 @@
-name: Blog posts on ReadMe
+name: Latest blog post workflow
 on:
   schedule:
     - cron: '0 0 * * *'
